@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background: linear-gradient(rgb(158, 211, 212),rgb(201, 197, 197));
+    background-repeat: no-repeat;
+    overflow: auto;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: orangered;
+}
+.input-section{
+    flex-wrap: wrap;
+display: flex;
+    /* text-align: center; */
+}
+.todo_list{
+    font-size: 2.3rem;
+    list-style-type: none;
+}
+li{
+
+    color: black;
+    padding: 5px;
+}
+/* .userInput,#addTodoBtn{
+    margin: 90px;
+} */
+.userInput{
+    margin-left: 20px;
+ flex: 3;
+    font-size: 2em;
+}
+#addTodoBtn{
+ flex: 1;
+    /* border-radius: 3px; */
+}
+.todos{
+    text-align: center;
+    overflow: auto;
+}
+li > button{
+    font-size: medium;
+padding: 10px;
+margin-left: 10px;
+}
